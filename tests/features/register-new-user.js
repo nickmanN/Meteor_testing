@@ -56,4 +56,4 @@ module.exports = function () {
 
 };
 
-// /tests/features/create-widget_steps.js
+// /tests/features/register-new-user.js

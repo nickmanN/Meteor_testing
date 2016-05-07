@@ -7,9 +7,9 @@ Feature: Register new User
  Background:
     Given I am on the site
 
- @watch
+ @register_user
  Scenario: Visitor make registration
-    When I click on "sign up" button
+    When I click on "Sign up" button
     And see "Almost there, just sign up"
     Then I click on input field "Your username/email" 
     And enter my username or email
@@ -18,13 +18,7 @@ Feature: Register new User
     Then I click on input field "Confirm your password"
     And enter same password again
     Then I click on "Sign Up" button to submit form
-    Then "Dasboard" and "Admin" and "Sign Out" buttons appear
-
-
+    Then "Dashboard" and "Admin" and "Sign Out" buttons appear
 
 
 # /tests/features/register-new-user.feature
-
-
-
-# /tests/features/create-widget.feature
